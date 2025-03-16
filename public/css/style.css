@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../asset/wallpaper/fundo-cadastro.svg') no-repeat center center fixed,
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        /*url('../asset/wallpaper/fundo-cadastro.svg') no-repeat center center fixed;*/
+    background-size: cover;  
+
+    background-repeat: no-repeat;  
+    background-position: center; 
+    margin: 0;
+    margin-top: 20px;
+    min-height: 100vh;
+    font-weight: 600;
+    font-style: normal;
+    animation: backgroundAnimation 15s infinite;
+    overflow: hidden;
+ 
+}
+
+@keyframes backgroundAnimation {
+
+    0% {
+      background-image: url('../asset/img/2148195034.jpg');
+    }
+    33% {
+      background-image: url('../asset/img/2149209253.jpg');
+    }
+    66% {
+      background-image: url('../asset/wallpaper/fundo-cadastro.svg');
+    }
+    100% {
+      background-image: url('../asset/img/2148195034.jpg');
+    }
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   
+}
+
+#conteiner{  
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 90vh;
+    flex-direction: column;         
+}
+#cooklablogo{
+    height: 70px;
+    padding-bottom: 30px;  
+    
+}
+img{
+    width: 500px;  
+    height: auto; 
+}
+
+input[type="submit"],
+input[type="email"],
+input[type="password"]{
+    outline: none;
+    padding: 10px 20px;          
+    border: none;   
+    font-weight: 550;             
+    border-radius: 20px;          
+    font-size: 13px;  
+    margin: 3px 3px; 
+    opacity: 0.9; 
+    margin-top: 20px;
+
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: gray; 
+    opacity: 0.8; 
+}
+
+form [type ="submit"]{
+    background-color: #3f3f3f;  
+    color: rgb(255, 255, 255);                             
+    cursor: pointer;            
+    width: 150px;
+}
+#submit{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#verreceitas{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: 10px
+}
+
+.rodape  {
+    text-decoration: none;  
+    display: flex;
+    color: white;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+
+
+}
+
+.rodape a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.cook {
+    display: flex;
+    gap: 20px;
+}
+
+.botaocad {         
+    border: none;   
+    font-weight: 550;             
+    border-radius: 20px;          
+    font-size: 13px;  
+    opacity: 0.9; 
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: #3c4043;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 350px;  
+}
+
+.botaocad img {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;
+}
