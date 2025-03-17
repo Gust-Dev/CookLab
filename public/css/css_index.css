@@ -1,0 +1,17 @@
+.barracima{
+    background-color: #716565;
+    display: block;
+    height: 25px;
+    margin-bottom: 50px;
+}
+
+.logotipo{
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5vh;
+    padding-left: 5vh;
+
+}
