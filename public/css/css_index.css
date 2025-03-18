@@ -28,7 +28,7 @@ z-index: -1;
 
     
 .logotipo img {
-   
+   min-width: 308.350px;
     width: 22vw;
     
 }
@@ -76,6 +76,85 @@ z-index: -1;
     align-items: center;
     
     
+}
+
+
+
+
+input[type="text"] {
+
+    max-width: 701px;
+    aspect-ratio: 701 / 62; /* mantém a proporção original */
+    padding-left: 90px;
+    padding: 20px;
+    font-size: 0.9rem; /* use rem para escalabilidade */
+    background-color: #716565;
+    border: none;
+    outline: none;
+    color: white;
+
+    mask-image: url('../asset/icons/Rectangle 6.svg');
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    -webkit-mask-image: url('../asset/icons/Rectangle 6.svg');
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+
+
+    background-image: url('../asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
+    background-size: 20px; /* Ajuste o tamanho conforme necessário */
+    background-position: 15px center; /* Alinha a lupa à esquerda */
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+input[type="text"]::placeholder {
+    color: #ffffff82; /* Cor do texto */
+    
+}
+
+.pesquisatopo{
+    display: flex;
+    
+}
+
+.pesquisatopo input[type="text"] {
+
+padding-left: 50px;
+
+}
+
+
+.pesquisatopo button {
+
+    transform: translateX(-70px);
+    
+    max-width: 238.97px;
+    aspect-ratio: 238.97 / 62; /* mantém a proporção original */
+
+    
+
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 0.9rem;
+    color: white;
+    background-color:rgba(46, 41, 50, 0.88);
+    mask-image: url('../asset/icons/botaotopo.svg');
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    -webkit-mask-image: url('../asset/icons/botaotopo.svg');
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+
+    border: none;
+    outline: none;
+
 }
 
 a {
