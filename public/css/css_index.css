@@ -2,15 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  }
+  
+  /* Definições de fonte e corpo */
+ 
+
+header {
+    width: 100%; /* Garante que o header ocupe 100% da largura da tela */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding extra se houver */
+    box-sizing: border-box;
+    background-color: white;
 }
 
 
-body{
 
-position: relative;
-background-color: #3a3745; /* Cor de fundo caso a imagem tenha transparência */
-}
+    body {
+        height: 100vh; /* Garante que o body sempre ocupe 100% da altura da tela */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #3a3745;
+      }
+
+
 
 
 
@@ -28,9 +43,6 @@ opacity: 0.4; /* Ajuste a opacidade conforme necessário */
 z-index: -1;
 
 
-display: flex;
-flex-direction: column;
-justify-content: space-between; /* Isso faz o footer ir para o final */
 
 
 }
@@ -49,8 +61,8 @@ justify-content: space-between; /* Isso faz o footer ir para o final */
 
 
 .logotipo{
-    width: 100%;
-    background-color: white;
+    
+    
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -257,12 +269,11 @@ a {
   }
   
 
-  footer {
-    position: relative; /* Remove o posicionamento fixo */
-    width: 100%;
-   
-    padding: 10px 0; /* Espaçamento interno */
-   
-    margin-top: 40%; /* Espaçamento acima do footer */
-}
+ 
 
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+    /* Remova o margin-top */
+  }
