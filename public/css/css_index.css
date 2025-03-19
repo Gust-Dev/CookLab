@@ -258,12 +258,11 @@ a {
   
 
   footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative; /* Remove o posicionamento fixo */
     width: 100%;
-    background-color: #f8f8f8; /* Cor de fundo do footer */
+   
     padding: 10px 0; /* Espaçamento interno */
-    
+   
+    margin-top: 40%; /* Espaçamento acima do footer */
 }
 
