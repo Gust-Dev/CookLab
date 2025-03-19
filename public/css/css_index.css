@@ -73,6 +73,20 @@ z-index: -1;
 
 }
 
+/* Para celulares Android (largura até 480px) */
+@media (max-width: 480px) {
+
+    .logotipo {
+        display: grid;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+
+        padding-top: 20px; /* Ajuste de espaçamento */
+        padding-bottom: 20px;
+    }
+}
+
 .linkstopo{
     background-color: white;
     display: flex;
