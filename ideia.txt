@@ -1,0 +1,23 @@
+ Tipo de Prato:
+Pratos Principais
+Aperitivos & Petiscos
+Sobremesas
+Sopas & Caldos
+Saladas & Acompanhamentos
+2. Tipo de Dieta ou Restrição Alimentar:
+Sem Glúten
+Sem Lactose
+Vegetariana/Vegana
+Low-Carb & Keto
+Pratos Light
+3. Tempo ou Dificuldade:
+Receitas Rápidas
+Refeições para o Dia-a-Dia
+Refeições Festivas
+4. Origem Geográfica:
+Culinária Internacional
+Receitas Regionais
+5. Por Ingredientes:
+Receitas com Frango
+Receitas com Vegetais
+Receitas com Massas
