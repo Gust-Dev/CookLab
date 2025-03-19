@@ -33,11 +33,7 @@ z-index: -1;
     
 }
 
-.barracima{
-    background-color: #716565;
-    display: block;
-    height: 25px;
-}
+
 
 .logotipo{
     background-color: white;
@@ -160,4 +156,25 @@ padding-left: 50px;
 a {
     color: inherit; /* Ou outra cor desejada */
     text-decoration: none;
+}
+
+/*Animação da barra para aparecer */ 
+
+#toggle {
+    display: none;
+}
+
+.linkscategoria {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-1px);
+    transition: height 0.5s ease-in-out, opacity 0.3s ease-in, transform 0.3s ease;
+}
+
+/* Quando o checkbox for marcado, a barra desliza para baixo */
+#toggle:checked ~ .linkscategoria {
+    height: 50px; /* Ajuste conforme o conteúdo */
+    opacity: 1;
+    transform: translateY(0);
 }
