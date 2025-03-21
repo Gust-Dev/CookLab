@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+
+    
+    .logotipo img {
+        /* Remove a largura mínima e ajusta a largura para caber na tela */
+        min-width: unset;
+        width: 50vw;
+        margin-bottom: 20px;
+    }
+
+    .logotipo {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+
+        
+    }
+
+
+    input[type="text"] {
+
+    width: 350px;
+   
+    
+
+    
+}
+
+
+
+
+
+.pesquisatopo button {
+
+    width: 50px;
+    box-sizing: content-box;
+    
+    
+
+}
+
+.pesquisatopo {
+    gap: 15px;
+    
+    box-sizing: border-box;
+    
+}
+
+}

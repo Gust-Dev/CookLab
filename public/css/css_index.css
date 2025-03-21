@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   
   /* Definições de fonte e corpo */
@@ -52,17 +54,12 @@ z-index: -1;
 }
 
 
-  
-  
 
-    
 .logotipo img {
    min-width: 308.350px;
     width: 22vw;
     
 }
-
-
 
 .logotipo{
     
@@ -80,12 +77,10 @@ z-index: -1;
 
 .pesquisatopo{
     display: flex;
+    padding-right: 70px;
     
 }
-/* Para celulares Android (largura até 480px) */
-@media (max-width: 768px) {
-    .pesquisatopo { display: none; }
-}
+
 
 .linkstopo{
     background-color: white;
@@ -113,11 +108,23 @@ z-index: -1;
 
 }
 
+
+
 input[type="text"] {
+
+    transform: translateX(70px); 
+    display: inline-block;
+
+       
+}
+
+input[type="text"] {
+
+    
 
     max-width: 701px;
     aspect-ratio: 701 / 62; /* mantém a proporção original */
-    padding-left: 90px;
+    
     padding: 20px;
     font-size: 0.9rem; /* use rem para escalabilidade */
     background-color: #716565;
@@ -130,10 +137,7 @@ input[type="text"] {
     mask-repeat: no-repeat;
     mask-position: center;
 
-    -webkit-mask-image: url('../asset/icons/Rectangle 6.svg');
-    -webkit-mask-size: 100% 100%;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
+    
 
 
     background-image: url('../asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
@@ -159,8 +163,6 @@ padding-left: 50px;
 
 .pesquisatopo button {
 
-    transform: translateX(-70px);
-    
     max-width: 238.97px;
     aspect-ratio: 238.97 / 62; /* mantém a proporção original */
 
@@ -286,3 +288,6 @@ footer {
     color: #ffffff;
     /* Remova o margin-top */
   }
+
+
+  
