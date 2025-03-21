@@ -21,9 +21,9 @@
     input[type="text"] {
 
     width: 320px;
-
-    mask-image: url('/public/asset/icons/Rectangle7.svg');
     mask-image: url('/asset/icons/Rectangle7.svg');
+    mask-image: url('/public/asset/icons/Rectangle7.svg');
+    
    
     transform: translateX(0px); 
 
@@ -34,8 +34,9 @@
 .pesquisatopo button {
     width: 1px;
     height: 1px; 
-    mask-image: url('/public/asset/icons/menu\ 1.svg');
     mask-image: url('/asset/icons/menu\ 1.svg');
+    mask-image: url('/public/asset/icons/menu\ 1.svg');
+    
     color: transparent;
     padding-left: 20px;
     
@@ -43,7 +44,7 @@
 
 
 .pesquisatopo {
-    
+    gap: 10px;
     padding-right: 0;
     box-sizing: border-box;
     align-items: center;
