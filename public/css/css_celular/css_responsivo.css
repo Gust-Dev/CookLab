@@ -1,4 +1,52 @@
+
+
 @media (max-width: 900px) {
+
+    
+    .logotipo img {
+        /* Remove a largura mínima e ajusta a largura para caber na tela */
+        min-width: unset;
+        width: 50vw;
+        margin-bottom: 20px;
+        
+    }
+
+    .logotipo {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+
+        
+    }
+
+
+    
+.pesquisatopo {
+    gap: 2px;
+    padding-right: 0;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pesquisatopo {
+    padding-right: 70px;
+}
+
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
 
     
     .logotipo img {
@@ -54,4 +102,3 @@
 }
 
 }
-
