@@ -28,7 +28,7 @@
    
     transform: translateX(0px); 
     
-    margin-top: 10px;
+    
     
 }
 
@@ -50,7 +50,7 @@
     padding-right: 0;
     box-sizing: border-box;
     align-items: center;
-    
+    margin-top: 10px;
 }
 
 }
