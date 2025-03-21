@@ -6,6 +6,7 @@
         min-width: unset;
         width: 50vw;
         margin-bottom: 20px;
+        
     }
 
     .logotipo {
@@ -26,7 +27,8 @@
     
    
     transform: translateX(0px); 
-
+    
+    margin-top: 10px;
     
 }
 
