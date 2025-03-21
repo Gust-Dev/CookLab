@@ -20,7 +20,7 @@
 
     input[type="text"] {
 
-    width: 350px;
+    width: 320px;
    
     
 
@@ -33,15 +33,17 @@
 
 .pesquisatopo button {
 
-    width: 50px;
+    width: 40px;
     box-sizing: content-box;
+
+    
     
     
 
 }
 
 .pesquisatopo {
-    gap: 15px;
+    gap: 20px;
     
     box-sizing: border-box;
     
