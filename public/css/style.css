@@ -24,15 +24,16 @@ body {
     0% {
       background-image: url('../asset/img/2148195034.jpg');
     }
-    33% {
+    25% {
       background-image: url('../asset/img/2149209253.jpg');
     }
-    66% {
+    50% {
       background-image: url('../asset/wallpaper/fundo-cadastro.svg');
     }
     100% {
       background-image: url('../asset/img/2148195034.jpg');
     }
+
   }
 
 form{

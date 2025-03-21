@@ -1,8 +1,5 @@
 
 @media (max-width: 900px) {
-
-  
-    
     .logotipo img {
         /* Remove a largura mínima e ajusta a largura para caber na tela */
         min-width: unset;
@@ -19,8 +16,6 @@
         padding-left: 0px;
         
     }
-
-
     
 .pesquisatopo {
     gap: 2px;
@@ -37,12 +32,14 @@
 
    .menu-btn{
         display: none;
-    }   
+    }    
     
+    .linkscategoria {
+        gap:40px;
+        font-size: x-small;
+    }
     
 }
-
-
 
 @media (max-width: 500px) {
 
@@ -68,22 +65,14 @@
         justify-content: center;
         justify-items: center;
 
-
-        
     }
-
 
     input[type="text"] {
 
     width: 320px;
     mask-image: url('/asset/icons/Rectangle7.svg');
-    
-    
-   
     transform: translateX(0px); 
-    
-    
-    
+
 }
 
 
@@ -91,13 +80,9 @@
     width: 1px;
     height: 1px; 
     mask-image: url('/asset/icons/menu\ 1.svg');
-    
-    
     color: transparent;
     padding-left: 20px;
 
-    
-    
 }
 
 
@@ -110,8 +95,5 @@
 }
 
 /* edições da barra de categoria para mobile*/
-
-
-
 
 }

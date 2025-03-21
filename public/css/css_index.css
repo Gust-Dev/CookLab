@@ -31,10 +31,6 @@ html, body {
         
       }
 
-
-
-
-
 body::before {
 content: "";
 position: fixed;
@@ -48,12 +44,7 @@ background-position: center;
 opacity: 0.4; /* Ajuste a opacidade conforme necessário */
 z-index: -1;
 
-
-
-
 }
-
-
 
 .logotipo img {
    min-width: 308.350px;
@@ -62,7 +53,6 @@ z-index: -1;
 }
 
 .logotipo{
-    
     
     display: flex;
     align-content: center;
