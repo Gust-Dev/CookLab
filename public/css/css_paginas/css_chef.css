@@ -28,7 +28,7 @@ html, body {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #3a3745;
+      background-color: #312e39;
       
     }
 
@@ -42,7 +42,7 @@ height: 100%;
 background-image: url(/asset/wallpaper/fundo-index.png);
 background-size: cover;
 background-position: center;
-opacity: 0.4; /* Ajuste a opacidade conforme necessário */
+opacity: 0.3; /* Ajuste a opacidade conforme necessário */
 z-index: -1;
 
 }
@@ -384,14 +384,17 @@ footer {
   display: grid;
   justify-items: center;
   padding-right: 50px;
+  
 }
 .titulo p {
 
   text-align: justify;
-  margin-top: 20px;
+  margin-top: 40px;
   letter-spacing: 4px;
   width: 950px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  line-height: 30px;
+
   
 
 }
