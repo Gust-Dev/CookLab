@@ -124,9 +124,18 @@ z-index: -1;
 
 
 .receita-popular{
-  background-color: #633C3C;
+  background-color: #000000;
   width: 100px;
   height: 100px;
+}
+
+.elemento-lateral {
+  background-color: #633C3C;
+  height: 100px;
+  width: 200px;
+}
+.bloco-receita-popular {
+  display: flex;
 }
 
 .receitas-principais{
@@ -137,10 +146,20 @@ z-index: -1;
   display: flex;
   justify-content: center;
   gap: 100px;
+  align-items: flex-end;
 }
 
-.popular {
+.classificacao {
   
+  margin-bottom: 20px;
+
+}
+.popular {
+  color: white;
+  letter-spacing: 10px;
+  font-size: small;
+  display: grid;
+  gap: 25px;
 }
 
 
