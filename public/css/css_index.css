@@ -102,7 +102,21 @@ z-index: -1;
 
 }
 
+.elemento{
+  width: 200px;
+  height: 200px;
+  background-color: #3a3745;
+  border: 1px;
+  padding: 10px;
+  
 
+}
+.conteiner{
+  display: flex;
+  
+  padding-left: 50px;
+  gap: 20px;
+}
 
 input[type="text"] {
 
@@ -284,4 +298,10 @@ footer {
   }
 
 
-  
+.Titulo{
+  color: #efebeb; /*pode corrigir se tiver errado*/
+}
+ 
+.Titulo-doces{
+  color: #efebeb;
+}
