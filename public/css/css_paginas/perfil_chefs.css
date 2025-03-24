@@ -7,50 +7,53 @@
   }
   
   /* Definições de fonte e corpo */
- 
-
-header {
+  
+  
+  header {
     width: 100%; /* Garante que o header ocupe 100% da largura da tela */
     margin: 0; /* Remove margens padrão */
     padding: 0; /* Remove padding extra se houver */
     box-sizing: border-box;
     background-color: white;
-}
-
-
-
-
+  }
+  
+  html, body {
+    overflow-x: hidden;
+    
+  }
+  
+  
     body {
         height: 100vh; /* Garante que o body sempre ocupe 100% da altura da tela */
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: #3a3745;
+        background-color: #312e39;
         
       }
-
-body::before {
-content: "";
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-image: url(../asset/wallpaper/fundo-index.png);
-background-size: cover;
-background-position: center;
-opacity: 0.4; /* Ajuste a opacidade conforme necessário */
-z-index: -1;
-
-}
-
-.logotipo img {
+  
+  body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/asset/wallpaper/fundo-index.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Ajuste a opacidade conforme necessário */
+  z-index: -1;
+  
+  }
+  
+  .logotipo img {
    min-width: 308.350px;
-    width: 22vw;
+    width: 18vw;
     
-}
-
-.logotipo{
+  }
+  
+  .logotipo{
     
     display: flex;
     align-content: center;
@@ -60,21 +63,22 @@ z-index: -1;
     padding-top:  50px;
     padding-bottom: 30px;
     padding-left: 70px;
-
-}
-
-
-.pesquisatopo{
+  
+  }
+  
+  
+  .pesquisatopo{
     display: flex;
     padding-right: 70px;
     
-}
-
-.menu-btn{
+    
+  }
+  
+  .menu-btn{
   display: none;
-}   
-
-.linkstopo{
+  }   
+  
+  .linkstopo{
     background-color: white;
     display: flex;
     gap: 100px;
@@ -82,10 +86,14 @@ z-index: -1;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #716565;
-
-}
-
-.linkscategoria{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: small;
+    font-weight: 550;
+  
+  }
+  
+  .linkscategoria{
     display: flex;
     background-color: #716565;
     gap: 70px;
@@ -96,113 +104,117 @@ z-index: -1;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     align-items: center;
-    font-size:small;
-
-}
-.titulo{
+    font-size:xx-small;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  
+  }
+  .titulo{
   color: #efebeb;
   font-family: 'Poppins', sans-serif; /*pode corrigir se tiver errado*/ /* TEM NADA ERRADO NÃO MEU AMIGO*/
   padding-left: 50px;
-}
-
-
-.elemento{
-  width: 225px;
+  }
+  
+  
+  .elemento{
+  width: 200px;
   height: 200px;
-  background-color: #3a3745;
+  
   padding: 10px;
   flex-direction: column;
-
+  
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-
-}
-
-
-
-.receita-popular{
+  
+  }
+  
+  
+  
+  .receita-popular{
   background-color: #000000;
   width: 100px;
   height: 100px;
-}
-
-.elemento-lateral {
+  }
+  
+  .elemento-lateral {
   background-color: #633C3C;
   height: 100px;
   width: 200px;
-}
-.bloco-receita-popular {
+  }
+  .bloco-receita-popular {
   display: flex;
-}
-
-.receitas-principais{
+  }
+  
+  .receitas-principais{
   display: grid;
-}
-
-.pai-cabecalho {
+  }
+  
+  .pai-cabecalho {
   display: flex;
   justify-content: center;
   gap: 100px;
   align-items: flex-end;
-}
-
-.classificacao {
+  }
+  
+  .classificacao {
   
   margin-bottom: 20px;
-
-}
-.popular {
+  
+  }
+  .popular {
   color: white;
   letter-spacing: 10px;
   font-size: small;
   display: grid;
   gap: 25px;
-}
-
-
-
-.elemento-inferior{
-  width: 225px;
+  }
+  
+  
+  
+  .elemento-inferior{
+  width: 200px;
   height: 60px;
-  background-color: #633C3C;
+  
   padding-top: 0;
   opacity: 0.9;
   
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-}
-
-
-
-h1 {
+  }
+  
+  
+  
+  h1 {
   margin-top: 20px;
   letter-spacing: 10px;
   font-family: 'Poppins', sans-serif;
-}
-
-.conteiner{
+  font-weight: 300;
+  letter-spacing: 15px;
+  }
+  
+  .conteiner{
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-left: 50px;
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(3, 0.1fr);
+  
   gap: 20px; /* espaço entre os itens */
-
-}
-
-
-input[type="text"] {
-
+  
+  }
+  
+  
+  input[type="text"] {
+  
     transform: translateX(70px); 
     display: inline-block;
-
+  
        
-}
-
-input[type="text"] {
-
+  }
+  
+  input[type="text"] {
+  
     
-
+  
     max-width: 701px;
     aspect-ratio: 701 / 62; /* mantém a proporção original */
     
@@ -212,110 +224,110 @@ input[type="text"] {
     border: none;
     outline: none;
     color: white;
-
-    mask-image: url('../asset/icons/Rectangle 6.svg');
+  
+    mask-image: url('/asset/icons/Rectangle 6.svg');
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
     mask-position: center;
-
+  
     
-
-
-    background-image: url('../asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
+  
+  
+    background-image: url('/asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
     background-size: 20px; /* Ajuste o tamanho conforme necessário */
     background-position: 15px center; /* Alinha a lupa à esquerda */
     background-repeat: no-repeat;
     padding-left: 50px;
-}
-
-input[type="text"]::placeholder {
+  }
+  
+  input[type="text"]::placeholder {
     color: #ffffff82; /* Cor do texto */
     
-}
-
-
-
-.pesquisatopo input[type="text"] {
-
-padding-left: 50px;
-
-}
-
-
-.pesquisatopo button {
-
+  }
+  
+  
+  
+  .pesquisatopo input[type="text"] {
+  
+  padding-left: 50px;
+  
+  }
+  
+  
+  .pesquisatopo button {
+  
     max-width: 238.97px;
     aspect-ratio: 238.97 / 62; /* mantém a proporção original */
-
+  
     
-
+  
     padding: 20px;
     padding-left: 50px;
     font-size: 0.9rem;
     color: white;
     background-color:rgba(46, 41, 50, 0.88);
-    mask-image: url('../asset/icons/botaotopo.svg');
+    mask-image: url('/asset/icons/botaotopo.svg');
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
     mask-position: center;
-
-    -webkit-mask-image: url('../asset/icons/botaotopo.svg');
+  
+    -webkit-mask-image: url('/asset/icons/botaotopo.svg');
     -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-
+  
     border: none;
     outline: none;
-
-}
-
-a {
+  
+  }
+  
+  a {
     color: inherit; /* Ou outra cor desejada */
     text-decoration: none;
-}
-
-/*Animação da barra para aparecer */ 
-
-#toggle {
+  }
+  
+  /*Animação da barra para aparecer */ 
+  
+  #toggle {
     display: none;
-}
-
-.linkscategoria {
+  }
+  
+  .linkscategoria {
     height: 0;
     overflow: hidden;
     opacity: 0;
     transform: translateY(-1px);
     transition: height 0.5s ease-in-out, opacity 0.3s ease-in, transform 0.3s ease;
-}
-
-/* Quando o checkbox for marcado, a barra desliza para baixo */
-#toggle:checked ~ .linkscategoria {
+  }
+  
+  /* Quando o checkbox for marcado, a barra desliza para baixo */
+  #toggle:checked ~ .linkscategoria {
     height: 50px; /* Ajuste conforme o conteúdo */
     opacity: 1;
     transform: translateY(0);
-}
-
-
-/* footer */
-
-
-.footer {
+  }
+  
+  
+  /* footer */
+  
+  
+  .footer {
     background-color: #2E2932;
     padding: 40px 0;
     text-align: center;
     color: #ffffff;
     
   }
-
-
+  
+  
   
   .footer-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
-
-
+  
+  
   .footer-container svg {
     width: 200px;
     fill: black;
@@ -346,7 +358,7 @@ a {
   .footer-social img {
     width: 30px;
   }
-
+  
   .social-link {
     margin: 0 10px;
     color: #ffffff;
@@ -360,31 +372,142 @@ a {
     color: #aaa;
   }
   
-
- 
-
-footer {
+  
+  
+  
+  footer {
     padding: 40px 0;
     text-align: center;
     color: #ffffff;
     /* Remova o margin-top */
   }
-
-
+  
+  
+  /*Configurações de titulo CHEF*/
+  
+  .titulo {
+    
+    margin-top: 80px;
+    display: grid;
+    justify-items: center;
+    padding-right: 50px;
+    
+  }
+  .titulo p {
+  
+    text-align: justify;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    width: 950px;
+    margin-bottom: 60px;
+    line-height: 30px;
+  
+    
+  
+  }
   
 
-::-webkit-scrollbar {
-  width: 5px;
-}
+  .receita-bloco {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-/* Trilho (fundo da barra) */
-::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 10px;
-}
+  .receita-bloco img {
+      border-radius: 100%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      
+      
+    }
 
-/* O "thumb" — parte que você arrasta */
-::-webkit-scrollbar-thumb {
-  background: rgba(114, 74, 74, 0.5);
-  border-radius: 10px;
-}
+    .receitas-usuario {
+      display: grid;
+      
+      grid-template-columns: repeat(4, 0.9fr);
+      gap: 20px;
+      margin-bottom: 50px;
+
+    }
+
+    .receitas-usuario elemento {
+
+   display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: x-small;
+  text-transform: uppercase;
+
+    }
+
+  .elemento-inferior-postagem {
+
+    width: 200px;
+    height: 60px;
+    background-color: #633c3cd5;
+    padding-top: 0;
+    opacity: 0.9;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    line-height: 1.5;
+
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  
+  }
+
+    .receitas-usuario img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+  
+  
+  .elemento-inferior {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  
+  }
+    
+    .elemento {
+      padding: 0;
+    }
+  
+    
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Trilho (fundo da barra) */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  /* O "thumb" — parte que você arrasta */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(114, 74, 74, 0.5);
+    border-radius: 10px;
+  }
+  
+  

@@ -49,7 +49,7 @@ z-index: -1;
 
 .logotipo img {
  min-width: 308.350px;
-  width: 22vw;
+  width: 18vw;
   
 }
 
@@ -86,6 +86,10 @@ display: none;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #716565;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: small;
+  font-weight: 550;
 
 }
 
@@ -100,7 +104,9 @@ display: none;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   align-items: center;
-  font-size:small;
+  font-size:xx-small;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 
 }
 .titulo{
@@ -423,3 +429,4 @@ footer {
   .elemento {
     padding: 0;
   }
+  

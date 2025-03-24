@@ -49,7 +49,7 @@ z-index: -1;
 
 .logotipo img {
    min-width: 308.350px;
-    width: 22vw;
+    width: 18vw;
     
 }
 
@@ -78,32 +78,37 @@ z-index: -1;
 }   
 
 .linkstopo{
-    background-color: white;
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #716565;
-    text-transform: uppercase;
+  background-color: white;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #716565;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: small;
+  font-weight: 550;
 
 }
 
 .linkscategoria{
-    display: flex;
-    background-color: #716565;
-    gap: 70px;
-    height: 45px;
-    padding-top: 0px;
-    color: white;
-    justify-content: center;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    align-items: center;
-    font-size:small;
-    text-transform: uppercase;
+  display: flex;
+  background-color: #716565;
+  gap: 70px;
+  height: 45px;
+  padding-top: 0px;
+  color: white;
+  justify-content: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  font-size:xx-small;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 
 }
+
 .titulo{
   color: #efebeb;
   font-family: 'Poppins', sans-serif; /*pode corrigir se tiver errado*/ /* TEM NADA ERRADO NÃO MEU AMIGO*/
@@ -146,9 +151,22 @@ z-index: -1;
   
   
 }
-.elemento-lateral h2,h6{
+.elemento-lateral h6{
   margin: 15px;
   letter-spacing: 4px;
+}
+
+.elemento-lateral h2{
+  margin: 10px;
+  letter-spacing: 4px;
+}
+
+.elemento-lateral h6{
+  line-height: 1.5;
+}
+
+.elemento-lateral-artigo p {
+  line-height: 1.7;
 }
 
 .elemento-lateral-artigo {
@@ -199,7 +217,7 @@ z-index: -1;
   font-size: small;
   display: grid;
   gap: 15px;
-  background-color: #00000075;
+  
 }
 
 
@@ -213,6 +231,9 @@ z-index: -1;
   
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+
+  line-height: 1.5;
+
 }
 
 
