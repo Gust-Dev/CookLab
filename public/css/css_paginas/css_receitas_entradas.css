@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /* Definições de fonte e corpo */
+  
+  
+  header {
+    width: 100%; /* Garante que o header ocupe 100% da largura da tela */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding extra se houver */
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  html, body {
+    overflow-x: hidden;
+    
+  }
+  
+  
+    body {
+        height: 100vh; /* Garante que o body sempre ocupe 100% da altura da tela */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #312e39;
+        
+      }
+  
+  body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/asset/wallpaper/fundo-index.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Ajuste a opacidade conforme necessário */
+  z-index: -1;
+  
+  }
+  
+  .logotipo img {
+   min-width: 308.350px;
+    width: 18vw;
+    
+  }
+  
+  .logotipo{
+    
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top:  50px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+  
+  }
+  
+  
+  .pesquisatopo{
+    display: flex;
+    padding-right: 70px;
+    
+    
+  }
+  
+  .menu-btn{
+  display: none;
+  }   
+  
+  .linkstopo{
+    background-color: white;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #716565;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: small;
+    font-weight: 500;
+  
+  }
+  
+  .linkscategoria{
+    display: flex;
+    background-color: #716565;
+    gap: 70px;
+    height: 45px;
+    padding-top: 0px;
+    color: white;
+    justify-content: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    align-items: center;
+    font-size:xx-small;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  input[type="text"] {
+  
+    transform: translateX(70px); 
+    display: inline-block;
+  
+       
+  }
+  
+  input[type="text"] {
+  
+    
+  
+    max-width: 701px;
+    aspect-ratio: 701 / 62; /* mantém a proporção original */
+    
+    padding: 20px;
+    font-size: 0.9rem; /* use rem para escalabilidade */
+    background-color: #716565;
+    border: none;
+    outline: none;
+    color: white;
+  
+    mask-image: url('/asset/icons/Rectangle 6.svg');
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  
+    
+  
+  
+    background-image: url('/asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
+    background-size: 20px; /* Ajuste o tamanho conforme necessário */
+    background-position: 15px center; /* Alinha a lupa à esquerda */
+    background-repeat: no-repeat;
+    padding-left: 50px;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #ffffff82; /* Cor do texto */
+    
+  }
+  
+  
+  
+  .pesquisatopo input[type="text"] {
+  
+  padding-left: 50px;
+  
+  }
+  
+  
+  .pesquisatopo button {
+  
+    max-width: 238.97px;
+    aspect-ratio: 238.97 / 62; /* mantém a proporção original */
+  
+    
+  
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 0.9rem;
+    color: white;
+    background-color:rgba(46, 41, 50, 0.88);
+    mask-image: url('/asset/icons/botaotopo.svg');
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  
+    -webkit-mask-image: url('/asset/icons/botaotopo.svg');
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+  
+    border: none;
+    outline: none;
+  
+  }
+  
+  a {
+    color: inherit; /* Ou outra cor desejada */
+    text-decoration: none;
+  }
+  
+  /*Animação da barra para aparecer */ 
+  
+  #toggle {
+    display: none;
+  }
+  
+  .linkscategoria {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-1px);
+    transition: height 0.5s ease-in-out, opacity 0.3s ease-in, transform 0.3s ease;
+  }
+  
+  /* Quando o checkbox for marcado, a barra desliza para baixo */
+  #toggle:checked ~ .linkscategoria {
+    height: 50px; /* Ajuste conforme o conteúdo */
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+/*corpo do html*/
+
+.titulo{
+    color: #efebeb;
+    font-family: 'Poppins', sans-serif; /*pode corrigir se tiver errado*/ /* TEM NADA ERRADO NÃO MEU AMIGO*/
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 20px;
+    letter-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 15px;
+    }
+
+.img-receita img {
+    object-fit: cover; 
+    border-radius: 8px;
+    width: 500px;
+    
+}
+
+.img-receita, .descricao { 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.receita-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    height: 382px;
+    gap: 20px;
+  
+}
+
+
+.descricao {
+    position: relative; 
+    width: 500px; 
+
+}   
+.descricao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 75, 75);
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 8px;
+}
+
+.descricao h2{
+    text-align: center; 
+    font-size: 24px; 
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.texto-descricao{
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+    margin: 0 20px;
+}
+.modo-preparo{
+    display: flex; /* Alinha as divs lado a lado */
+    gap: 20px; /* Define o espaçamento entre as divs */
+    justify-content: space-between; /* Distribui o espaço entre as divs */
+    padding: 20px;
+}
+.texto-titulo{
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.texto-titulo::before,
+.texto-titulo::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 0 20px;
+}
+
+
+.texto-modo-preparo{
+    text-align:justify;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+    margin: 0 20px;
+}
+.texto-modo-preparo p{
+    line-height: 2;
+}
+
+
+.ingredientes, .texto-modo-preparo{
+    position: relative;
+   
+}
+.ingredientes{
+    border-left: 2px solid #ffffff;
+}
+
+/*
+.ingredientes::before,
+.texto-modo-preparo::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 75, 75); 
+    border-radius: 8px; 
+    opacity: 0.5;
+    z-index: -1;
+}*/
+.ingredientes h2 {
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+ul.tags {
+    list-style-type: none; 
+    padding-left: 0; 
+    
+}
+
+ul.tags li {
+    position: relative; 
+    padding-left: 25px; 
+    font-size: 18px;
+    margin-bottom: 10px; 
+    color: #ffffff;
+    padding-left: 50px;
+    
+   
+}
+
+ul.tags li::before {
+    content: "●"; 
+    position: absolute;
+    left: 0;
+    color: #ffffff; 
+    font-size: 15px; 
+    padding-left: 20px;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  /* footer */
+  
+  
+  .footer {
+    background-color: #2E2932;
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+    
+  }
+  
+  
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  .footer-container svg {
+    width: 200px;
+    fill: black;
+  }
+  
+  
+  .footer-logo {
+    font-size: 24px;
+    color: #5C6BC0;
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav {
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-social {
+    margin-bottom: 30px;
+  }
+  
+  .footer-social img {
+    width: 30px;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  
+  
+  
+  footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+    /* Remova o margin-top */
+  }
+  
+  
+  /*Configurações de titulo CHEF*/
+  
+  .titulo {
+    
+    margin-top: 80px;
+    display: grid;
+    justify-items: center;
+    padding-right: 50px;
+    
+  }
+  
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Trilho (fundo da barra) */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+/* O "thumb" — parte que você arrasta */
+::-webkit-scrollbar-thumb {
+    background: rgba(114, 74, 74, 0.5);
+    border-radius: 10px;
+}
+
+    
+  
