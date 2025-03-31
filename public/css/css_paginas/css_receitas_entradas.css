@@ -303,10 +303,16 @@ h1 {
     margin: 0 20px;
 }
 .modo-preparo{
-    display: flex; /* Alinha as divs lado a lado */
-    gap: 20px; /* Define o espaçamento entre as divs */
-    justify-content: space-between; /* Distribui o espaço entre as divs */
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
     padding: 20px;
+    align-items: center;
+}
+
+h2 {
+  margin-top: 20px;
 }
 .texto-titulo{
     align-items: center;
