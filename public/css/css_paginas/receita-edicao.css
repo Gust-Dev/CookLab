@@ -385,6 +385,12 @@ h1 {
     line-height: 2;
 }
 
+.linha img{
+  height: 500px;
+  width: 1px;
+  border-radius: 10px;
+}
+
 .ingredientes span{
     color: #ffffff;
 }
@@ -392,8 +398,9 @@ h1 {
     position: relative;
    
 }
+
 .ingredientes{
-    border-left: 2px solid #ffffff;
+    
     background-color: #2E2932;
 }
 .ingredientes li{
@@ -541,5 +548,35 @@ ul.tags li::before {
     border-radius: 10px;
 }
 
-    
+
+/* ======== responsividade ======== */
+
+/* desktops menores / laptops */
+@media (max-width: 1024px) {
+  .linkstopo {
+    gap: 50px;
+    font-size: 0.8rem;
+  }
+  .linkscategoria {
+    gap: 40px;
+    font-size: 0.7rem;
+  }
+  .logotipo {
+    padding: 30px 20px;
+  }
+  .pesquisatopo {
+    padding-right: 20px;
+  }
+  .botoes {
+    margin-left: 20px;
+    gap: 15px;
+    width: auto;
+  }
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+  }
+}
+
+
   

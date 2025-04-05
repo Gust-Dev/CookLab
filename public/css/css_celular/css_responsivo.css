@@ -103,3 +103,204 @@
 /* edições da barra de categoria para mobile*/
 
 }
+
+/* Responsividade geral */
+@media (max-width: 1024px) {
+   
+  
+    .receita-conteiner {
+      flex-direction: column;
+      height: auto;
+      margin: 20px;
+    }
+  
+    .img-receita img {
+      width: 90vw;
+      height: auto;
+    }
+  
+    .descricao {
+      width: 90vw;
+      padding: 10px;
+    }
+  
+    .botoes {
+      flex-direction: column;
+      width: auto;
+      margin-left: 0;
+      align-items: center;
+      padding: 10px;
+      height: auto;
+      gap: 10px;
+    }
+  
+    .botoes img {
+      width: 30px;
+    }
+  
+    .modo-preparo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .texto-modo-preparo,
+    .ingredientes {
+      width: 100%;
+      max-width: 90%;
+    }
+  
+    .linha {
+      display: none;
+    }
+  
+    .ingredientes ul.tags li {
+      font-size: 16px;
+      padding-left: 40px;
+    }
+  
+    .texto-modo-preparo {
+      font-size: 16px;
+    }
+  
+    .login-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+      width: 100%;
+      max-width: 200px;
+    }
+  
+    .footer-container svg {
+      width: 150px;
+    }
+  
+    .footer-nav a {
+      font-size: 14px;
+    }
+  
+    .footer-social img {
+      width: 24px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .logotipo img {
+      width: 50vw;
+    }
+  
+    h1 {
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+  
+    .descricao h2 {
+      font-size: 20px;
+    }
+  
+    .ingredientes h2 {
+      font-size: 15px;
+      letter-spacing: 10px;
+    }
+  
+    .footer-logo {
+      font-size: 20px;
+    }
+  
+    .footer-nav a {
+      margin: 0 10px;
+      font-size: 13px;
+    }
+  
+    .footer-social img {
+      width: 20px;
+    }
+  }
+  @media (max-width: 600px) {
+  .ingredientes h2 {
+    font-size: 15px;
+    letter-spacing: 10px;
+  }
+
+  .elemento-lateral-artigo p {
+    font-size: 7px;
+  }
+
+  .popular {
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+
+  .elemento-inferior {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 1024px) {
+  .receita-conteiner {
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+  }
+
+  .img-receita img {
+    width: 90vw;
+    height: auto;
+  }
+
+  .descricao {
+    width: 90vw;
+    padding: 10px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    width: auto;
+    margin-left: 0;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .modo-preparo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto-modo-preparo,
+  .ingredientes {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  .login-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ingredientes h2 {
+    font-size: 15px;
+    letter-spacing: 10px;
+  }
+
+  .elemento-lateral-artigo p {
+    font-size: 7px;
+  }
+
+  .popular {
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+
+  .elemento-inferior {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+}

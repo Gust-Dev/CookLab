@@ -246,6 +246,7 @@ h1 {
     object-fit: cover; 
     border-radius: 8px;
     width: 500px;
+    height: 100%;
     
 }
 
@@ -344,13 +345,15 @@ h2 {
     line-height: 2;
 }
 
+.linha img{
+  height: 400px;
+  width: 1px;
+  border-radius: 10px;
+}
 
 .ingredientes, .texto-modo-preparo{
     position: relative;
    
-}
-.ingredientes{
-    border-left: 2px solid #ffffff;
 }
 
 /*
