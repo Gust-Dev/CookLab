@@ -110,16 +110,6 @@
   
   }
   
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
   input[type="text"] {
   
     transform: translateX(70px); 
@@ -241,6 +231,15 @@ h1 {
     font-weight: 300;
     letter-spacing: 15px;
     }
+
+.botao-edicao-titulo img {
+  width: 40px; 
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  padding-top: 15px;
+  
+} 
 
 .img-receita img {
     object-fit: cover; 
@@ -405,27 +404,6 @@ ul.tags li::before {
 }
 
 
-
-
-
-
-    
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
   
   /* footer */
   
@@ -505,7 +483,6 @@ ul.tags li::before {
   /*Configurações de titulo CHEF*/
   
   .titulo {
-    
     margin-top: 80px;
     display: grid;
     justify-items: center;

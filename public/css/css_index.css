@@ -10,9 +10,9 @@
  
 
 header {
-    width: 100%; /* Garante que o header ocupe 100% da largura da tela */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding extra se houver */
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
     box-sizing: border-box;
     background-color: white;
 }
@@ -23,14 +23,14 @@ html, body {
 }
 
 
-    body {
-        height: 100vh; /* Garante que o body sempre ocupe 100% da altura da tela */
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        background-color: #3a3745;
-        
-      }
+body {
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3a3745;
+    
+  }
 
 body::before {
 content: "";
@@ -42,7 +42,7 @@ height: 100%;
 background-image: url(../asset/wallpaper/fundo-index.png);
 background-size: cover;
 background-position: center;
-opacity: 0.4; /* Ajuste a opacidade conforme necessário */
+opacity: 0.4; 
 z-index: -1;
 
 }
@@ -58,8 +58,7 @@ z-index: -1;
     display: flex;
     align-content: center;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
     padding-top:  50px;
     padding-bottom: 30px;
     padding-left: 70px;
@@ -75,7 +74,11 @@ z-index: -1;
 
 .menu-btn{
   display: none;
-}   
+} 
+
+.login-btn{
+  cursor: pointer;
+}
 
 .linkstopo{
   background-color: white;

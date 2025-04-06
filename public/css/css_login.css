@@ -6,67 +6,58 @@
     
   }
   
-  /* Definições de fonte e corpo */
- 
-
 header {
-    width: 100%; /* Garante que o header ocupe 100% da largura da tela */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding extra se houver */
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
     box-sizing: border-box;
     background-color: white;
 }
 
-
-
-
-    body {
-        height: 100vh; /* Garante que o body sempre ocupe 100% da altura da tela */
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        background-color: #3a3745;
-        
-      }
+body {
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3a3745;
+    
+  }
 
 body::before {
-content: "";
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-image: url(../asset/wallpaper/fundo-index.png);
-background-size: cover;
-background-position: center;
-opacity: 0.4; /* Ajuste a opacidade conforme necessário */
-z-index: -1;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../asset/wallpaper/fundo-index.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; 
+  z-index: -1;
 
 }
 
 .logotipo img {
-   min-width: 308.350px;
-    width: 22vw;
-    
+  min-width: 308.350px;
+  width: 22vw;
+  
 }
 
-.logotipo{
-    
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    
-    padding-top:  50px;
-    padding-bottom: 30px;
-    padding-left: 70px;
+.logotipo{ 
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top:  50px;
+  padding-bottom: 30px;
+  padding-left: 70px;
 
 }
-
 
 .pesquisatopo{
-    display: flex;
-    padding-right: 70px;
+  display: flex;
+  padding-right: 70px;
     
 }
 
@@ -75,33 +66,34 @@ z-index: -1;
 }   
 
 .linkstopo{
-    background-color: white;
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #716565;
+  background-color: white;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #716565;
 
 }
 
 .linkscategoria{
-    display: flex;
-    background-color: #716565;
-    gap: 70px;
-    height: 45px;
-    padding-top: 0px;
-    color: white;
-    justify-content: center;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    align-items: center;
-    font-size:small;
+  display: flex;
+  background-color: #716565;
+  gap: 70px;
+  height: 45px;
+  padding-top: 0px;
+  color: white;
+  justify-content: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  font-size:small;
 
 }
+
 .titulo{
   color: #efebeb;
-  font-family: 'Poppins', sans-serif; /*pode corrigir se tiver errado*/ /* TEM NADA ERRADO NÃO MEU AMIGO*/
+  font-family: 'Poppins', sans-serif; 
   padding-left: 50px;
 }
 
@@ -112,13 +104,9 @@ z-index: -1;
   background-color: #3a3745;
   padding: 10px;
   flex-direction: column;
-
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-
 }
-
-
 
 .receita-popular{
   background-color: #000000;
@@ -146,11 +134,10 @@ z-index: -1;
   align-items: flex-end;
 }
 
-.classificacao {
-  
+.classificacao { 
   margin-bottom: 20px;
-
 }
+
 .popular {
   color: white;
   letter-spacing: 10px;
@@ -159,20 +146,15 @@ z-index: -1;
   gap: 25px;
 }
 
-
-
 .elemento-inferior{
   width: 225px;
   height: 60px;
   background-color: #633C3C;
   padding-top: 0;
   opacity: 0.9;
-  
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
-
 
 h1 {
   margin-top: 20px;
@@ -186,69 +168,47 @@ h1 {
   padding-left: 50px;
   display: grid;
   grid-template-columns: repeat(3, 0.1fr);
-  gap: 20px; /* espaço entre os itens */
+  gap: 20px; 
 
 }
 
 
 input[type="text"] {
-
     transform: translateX(70px); 
-    display: inline-block;
-
-       
+    display: inline-block;      
 }
 
 input[type="text"] {
-
-    
-
     max-width: 701px;
-    aspect-ratio: 701 / 62; /* mantém a proporção original */
-    
+    aspect-ratio: 701 / 62; 
     padding: 20px;
-    font-size: 0.9rem; /* use rem para escalabilidade */
+    font-size: 0.9rem; 
     background-color: #716565;
     border: none;
     outline: none;
     color: white;
-
     mask-image: url('../asset/icons/Rectangle 6.svg');
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
     mask-position: center;
-
-    
-
-
-    background-image: url('../asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
-    background-size: 20px; /* Ajuste o tamanho conforme necessário */
-    background-position: 15px center; /* Alinha a lupa à esquerda */
+    background-image: url('../asset/icons/Vector\ \(2\).svg'); 
+    background-size: 20px; 
+    background-position: 15px center; 
     background-repeat: no-repeat;
     padding-left: 50px;
 }
 
 input[type="text"]::placeholder {
-    color: #ffffff82; /* Cor do texto */
-    
+    color: #ffffff82;     
 }
-
-
 
 .pesquisatopo input[type="text"] {
-
-padding-left: 50px;
-
+  padding-left: 50px;
 }
 
-
 .pesquisatopo button {
-
     max-width: 238.97px;
-    aspect-ratio: 238.97 / 62; /* mantém a proporção original */
-
-    
-
+    aspect-ratio: 238.97 / 62; 
     padding: 20px;
     padding-left: 50px;
     font-size: 0.9rem;
@@ -258,19 +218,16 @@ padding-left: 50px;
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
     mask-position: center;
-
     -webkit-mask-image: url('../asset/icons/botaotopo.svg');
     -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-
     border: none;
     outline: none;
-
 }
 
 a {
-    color: inherit; /* Ou outra cor desejada */
+    color: inherit; 
     text-decoration: none;
 }
 
@@ -290,9 +247,21 @@ a {
 
 /* Quando o checkbox for marcado, a barra desliza para baixo */
 #toggle:checked ~ .linkscategoria {
-    height: 50px; /* Ajuste conforme o conteúdo */
+    height: 50px; 
     opacity: 1;
     transform: translateY(0);
+}
+
+#cadastrar {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #3f3f3f;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  opacity: 0.9;
+  font-size: 15px;
+  font-weight: 550;
 }
 
 
@@ -307,8 +276,6 @@ a {
     
   }
 
-
-  
   .footer-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -367,7 +334,7 @@ footer {
     padding: 40px 0;
     text-align: center;
     color: #ffffff;
-    /* Remova o margin-top */
+    
   }
 
 
@@ -377,13 +344,11 @@ footer {
   width: 5px;
 }
 
-/* Trilho (fundo da barra) */
 ::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 10px;
 }
 
-/* O "thumb" — parte que você arrasta */
 ::-webkit-scrollbar-thumb {
   background: rgba(114, 74, 74, 0.5);
   border-radius: 10px;

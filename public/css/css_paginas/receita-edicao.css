@@ -109,16 +109,7 @@
     letter-spacing: 4px;
   
   }
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
+
   
   input[type="text"] {
   
@@ -129,37 +120,27 @@
   }
   
   input[type="text"] {
-  
-    
-  
     max-width: 701px;
     aspect-ratio: 701 / 62; /* mantém a proporção original */
-    
     padding: 20px;
-    font-size: 0.9rem; /* use rem para escalabilidade */
+    font-size: 0.9rem; 
     background-color: #716565;
     border: none;
     outline: none;
     color: white;
-  
     mask-image: url('/asset/icons/Rectangle 6.svg');
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
     mask-position: center;
-  
-    
-  
-  
-    background-image: url('/asset/icons/Vector\ \(2\).svg'); /* Caminho do ícone */
-    background-size: 20px; /* Ajuste o tamanho conforme necessário */
-    background-position: 15px center; /* Alinha a lupa à esquerda */
+    background-image: url('/asset/icons/Vector\ \(2\).svg'); 
+    background-size: 20px;
+    background-position: 15px center; 
     background-repeat: no-repeat;
     padding-left: 50px;
   }
   
   input[type="text"]::placeholder {
-    color: #ffffff82; /* Cor do texto */
-    
+    color: #ffffff82; 
   }
   
   
@@ -171,35 +152,35 @@
   }
   
   
-  .pesquisatopo button {
+.pesquisatopo button {
+
+  max-width: 238.97px;
+  aspect-ratio: 238.97 / 62; /* mantém a proporção original */
+
   
-    max-width: 238.97px;
-    aspect-ratio: 238.97 / 62; /* mantém a proporção original */
-  
-    
-  
-    padding: 20px;
-    padding-left: 50px;
-    font-size: 0.9rem;
-    color: white;
-    background-color:rgba(46, 41, 50, 0.88);
-    mask-image: url('/asset/icons/botaotopo.svg');
-    mask-size: 100% 100%;
-    mask-repeat: no-repeat;
-    mask-position: center;
-  
-    -webkit-mask-image: url('/asset/icons/botaotopo.svg');
-    -webkit-mask-size: 100% 100%;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-  
-    border: none;
-    outline: none;
+
+  padding: 20px;
+  padding-left: 50px;
+  font-size: 0.9rem;
+  color: white;
+  background-color:rgba(46, 41, 50, 0.88);
+  mask-image: url('/asset/icons/botaotopo.svg');
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+  -webkit-mask-image: url('/asset/icons/botaotopo.svg');
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  border: none;
+  outline: none;
   
   }
   
   a {
-    color: inherit; /* Ou outra cor desejada */
+    color: inherit; 
     text-decoration: none;
   }
   
