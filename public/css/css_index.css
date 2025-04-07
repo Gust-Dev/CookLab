@@ -500,6 +500,12 @@ justify-content: center;
     padding-top: 100px;
   }
 
+  .titulo {
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+  }
+
 }
 
 
