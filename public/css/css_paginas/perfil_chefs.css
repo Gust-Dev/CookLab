@@ -94,7 +94,7 @@
   }
   
 .box-index-principal {
-  background: linear-gradient(to right, rgb(76 38 141 / 0%), rgb(3 3 4 / 54%), rgb(24 13 43 / 0%));
+  
   margin-right: 0px;
   border-right-width: 30px;
   padding-right: 30px;
@@ -298,6 +298,7 @@
   /*Animação da barra para aparecer */ 
   
   #toggle {
+   
     display: none;
   }
   
@@ -396,7 +397,7 @@
   
   .titulo {
     
-    margin-top: 80px;
+    margin-top: 40px;
     display: grid;
     justify-items: center;
     padding-right: 50px;
@@ -438,7 +439,7 @@
     .receitas-usuario {
       display: grid;
       
-      grid-template-columns: repeat(4, 0.9fr);
+      grid-template-columns: repeat(2, 0.9fr);
       gap: 20px;
       margin-bottom: 50px;
 
@@ -506,21 +507,306 @@
     }
   
     
+  /* tentativa */
+
+  @media (max-width: 900px) {
+    .logotipo img {
+        /* Remove a largura mínima e ajusta a largura para caber na tela */
+        min-width: unset;
+        width: 50vw;
+        margin-bottom: 20px;
+        
+    }
+
+    
+
+    .linkstopo {
+      font-size: 10px;
+      gap: 30px;
+
+
+
+      
+    }
+
+    
+
+    .logotipo {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+        padding-left: 0px;
+        
+    }
+    
+.pesquisatopo {
+    gap: 2px;
+    padding-right: 0;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pesquisatopo {
+    padding-right: 70px;
+}
+
+
+   .menu-btn{
+        display: none;
+    }    
+    
+    .linkscategoria {
+        gap:40px;
+        font-size: x-small;
+    }
+    
+
+   #toggle:checked ~ .linkscategoria {
+      height: 250px;}
+
+
+
+
+     
+        .linkscategoria {
+            gap: 20px;
+            font-size: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+          
+    
+}
+
+@media (max-width: 1200px) {
+
+.linkscategoria {
+            display: flex;
+            background-color: #716565;
+            gap: 30px;
+            height: 45px;
+            padding-top: 0px;
+            color: white;
+            justify-content: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            align-items: center;
+            font-size: 7px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        
+        }
+      }
+
+@media (max-width: 500px) {
+
+  /*parte do conteiner de receita responsivo*/
+  .conteiner {
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+    display: grid;
+
+    grid-template-columns: repeat(1, 0.1fr);
+    gap: 100px;
+    justify-content: center;
+}
+
+
+
+
+  /*parte do conteiner de receita responsivo*/
   
-  ::-webkit-scrollbar {
-    width: 5px;
+
+
+
+
+
+
+
+
+
+
+  .linkscategoria{
+    font-size: 6px;
+  }
+    .linkstopo {
+      font-size: 9px;
+       gap: 30px;
+     letter-spacing: 1px;
+
+    }
+
+
+
+    .menu-btn{
+        display: none;
+    }
+
+
+    .login-btn{
+        display: none;
+    }
+    
+    .logotipo img {
+        /* Remove a largura mínima e ajusta a largura para caber na tela */
+        min-width: unset;
+        width: 50vw;
+        margin-bottom: 20px;
+        
+    }
+
+    .logotipo {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    input[type="text"] {
+
+    width: 320px;
+    mask-image: url('/asset/icons/Rectangle7.svg');
+    transform: translateX(0px); 
+
+}
+
+
+.pesquisatopo button {
+    width: 1px;
+    height: 1px; 
+    mask-image: url('/asset/icons/menu\ 1.svg');
+    color: transparent;
+    padding-left: 20px;
+
+}
+
+
+.pesquisatopo {
+    gap: 10px;
+    padding-right: 0;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* edições da barra de categoria para mobile*/
+
+}
+
+/* Responsividade geral */
+@media (max-width: 1024px) {
+   
+  
+    .receita-conteiner {
+      flex-direction: column;
+      height: auto;
+      margin: 20px;
+    }
+  
+    .img-receita img {
+      width: 90vw;
+      height: auto;
+    }
+  
+    .descricao {
+      width: 90vw;
+      padding: 10px;
+    }
+  
+    .botoes {
+      flex-direction: column;
+      width: auto;
+      margin-left: 0;
+      align-items: center;
+      padding: 10px;
+      height: auto;
+      gap: 10px;
+    }
+  
+    .botoes img {
+      width: 30px;
+    }
+  
+    .modo-preparo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .texto-modo-preparo,
+    .ingredientes {
+      width: 100%;
+      max-width: 90%;
+    }
+  
+    .linha {
+      display: none;
+    }
+  
+    .ingredientes ul.tags li {
+      font-size: 16px;
+      padding-left: 40px;
+    }
+  
+    .texto-modo-preparo {
+      font-size: 16px;
+    }
+  
+    .login-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+      width: 100%;
+      max-width: 200px;
+    }
+  
+    .footer-container svg {
+      width: 150px;
+    }
+  
+    .footer-nav a {
+      font-size: 14px;
+    }
+  
+    .footer-social img {
+      width: 24px;
+    }
   }
   
-  /* Trilho (fundo da barra) */
-  ::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 10px;
-  }
+  @media (max-width: 500px) {
+    .logotipo img {
+      width: 50vw;
+    }
   
-  /* O "thumb" — parte que você arrasta */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(114, 74, 74, 0.5);
-    border-radius: 10px;
+    h1 {
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+  
+    .descricao h2 {
+      font-size: 20px;
+    }
+  
+    .ingredientes h2 {
+      font-size: 15px;
+      letter-spacing: 10px;
+    }
+  
+    .footer-logo {
+      font-size: 20px;
+    }
+  
+    .footer-nav a {
+      margin: 0 10px;
+      font-size: 13px;
+    }
+  
+    .footer-social img {
+      width: 20px;
+    }
   }
   
   

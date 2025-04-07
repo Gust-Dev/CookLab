@@ -314,21 +314,24 @@ a {
 
 
 .footer {
-  background-color: #2E2932;
-  padding: 40px 0;
-  text-align: center;
-  color: #ffffff;
+
+  margin-top: 80px;
+    background-color: #2E2932;
+    
+    text-align: center;
+    color: #ffffff;
+    
+  }
+
+
   
-}
+  .footer-container {
 
-
-
-.footer-container {
-  background-color: #2E2932;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+    background-color: #2E2932;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
 
 .footer-container svg {
@@ -390,7 +393,7 @@ footer {
 
 .titulo {
   
-  margin-top: 80px;
+  margin-top: 40px;
   display: grid;
   justify-items: center;
   padding-right: 50px;
@@ -433,20 +436,6 @@ footer {
     padding: 0;
   }
 
-  ::-webkit-scrollbar {
-    width: 5px;
-  }
   
-  /* Trilho (fundo da barra) */
-  ::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 10px;
-  }
-  
-  /* O "thumb" — parte que você arrasta */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(114, 74, 74, 0.5);
-    border-radius: 10px;
-  }
   
   
