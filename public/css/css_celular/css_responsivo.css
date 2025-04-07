@@ -8,10 +8,15 @@
         
     }
 
+    
 
     .linkstopo {
       font-size: 10px;
       gap: 30px;
+
+
+
+      
     }
 
     
@@ -89,8 +94,17 @@
 
 @media (max-width: 500px) {
 
+    .linkstopo {
+      font-size: 8px;
+       gap: 30px;
+     letter-spacing: 1px;
+
+    }
+
+
+
     .menu-btn{
-        display: grid;
+        display: none;
     }
 
 
