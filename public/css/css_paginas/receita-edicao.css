@@ -560,4 +560,27 @@ ul.tags li::before {
 }
 
 
+
+@media (max-width: 500px) {
+
+  .botaoedicao {
+
+    display: flex;
+    
+
+  }
+
+  .titulo {
+  display: grid;
+}
+
+  .botoes {
+    display: flex;
+    
+
+
+  }
+}
   
+
+
