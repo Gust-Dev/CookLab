@@ -248,7 +248,7 @@ h1 {
 .conteiner{
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-left: 50px;
+  
   display: grid;
   grid-template-columns: repeat(3, 0.1fr);
   gap: 20px; /* espaço entre os itens */
@@ -468,7 +468,25 @@ footer {
     padding: 0;
   }
 
-/* mudar scroll do grupo todo*/
+/* parte destinada para  sobremesas e pratos principais*/
+
+.box-index-principal {
+
+display: grid;
+justify-content: center;
+
+}
+
+.titulo-pagina {
+  padding-top: 40px;
+  color: #efebeb;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  
+}
+
+
+
 
 
 

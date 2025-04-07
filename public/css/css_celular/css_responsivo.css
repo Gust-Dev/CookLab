@@ -94,6 +94,31 @@
 
 @media (max-width: 500px) {
 
+  /*parte do conteiner de receita responsivo*/
+  .conteiner {
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+    display: grid;
+
+    grid-template-columns: repeat(1, 0.1fr);
+    gap: 20px;
+}
+
+
+
+
+  /*parte do conteiner de receita responsivo*/
+  
+
+
+
+
+
+
+
+
+
 
   .linkscategoria{
     font-size: 6px;
@@ -240,7 +265,7 @@
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     .logotipo img {
       width: 50vw;
     }
@@ -272,7 +297,7 @@
       width: 20px;
     }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
   .ingredientes h2 {
     font-size: 15px;
     letter-spacing: 10px;
@@ -362,3 +387,5 @@
     letter-spacing: 3px;
   }
 }
+
+
