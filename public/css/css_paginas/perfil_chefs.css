@@ -126,8 +126,8 @@
   
   
   .elemento{
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   
   padding: 10px;
   flex-direction: column;
@@ -459,7 +459,7 @@
 
   .elemento-inferior-postagem {
 
-    width: 200px;
+    width: 180px;
     height: 60px;
     background-color: #633c3cd5;
     padding-top: 0;
