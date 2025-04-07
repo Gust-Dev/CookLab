@@ -495,22 +495,6 @@ ul.tags li::before {
     justify-content: center;
     
   }
-  
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-/* Trilho (fundo da barra) */
-::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 10px;
-}
-
-/* O "thumb" — parte que você arrasta */
-::-webkit-scrollbar-thumb {
-    background: rgba(114, 74, 74, 0.5);
-    border-radius: 10px;
-}
-
+ 
     
   
