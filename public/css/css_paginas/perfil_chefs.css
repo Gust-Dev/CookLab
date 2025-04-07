@@ -439,7 +439,7 @@
     .receitas-usuario {
       display: grid;
       
-      grid-template-columns: repeat(2, 0.9fr);
+      grid-template-columns: repeat(4, 0.9fr);
       gap: 10px;
       margin-bottom: 50px;
 
@@ -621,6 +621,16 @@
 
   /*parte do conteiner de receita responsivo*/
   
+
+  .receitas-usuario {
+    display: grid;
+    
+    grid-template-columns: repeat(2, 0.9fr);
+    gap: 10px;
+    margin-bottom: 50px;
+
+  }
+
 
   .linkscategoria{
     font-size: 9px;
