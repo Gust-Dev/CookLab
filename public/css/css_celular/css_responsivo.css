@@ -102,7 +102,8 @@
     display: grid;
 
     grid-template-columns: repeat(1, 0.1fr);
-    gap: 20px;
+    gap: 100px;
+    justify-content: center;
 }
 
 
@@ -388,4 +389,25 @@
   }
 }
 
+@media (max-width: 500px) {
 
+  /*parte do conteiner de receita responsivo*/
+  .receita-bloco { 
+
+    width: 300px;
+    height: 225px;
+
+    gap: 50px;
+
+  }
+
+  .elemento {
+    width: 300px;
+    height: 225px;
+  }
+
+  .elemento-inferior {
+    width: 300px;
+    height: 90px;
+  }
+}

@@ -365,8 +365,10 @@ a {
 
 
 .footer {
+
+  margin-top: 80px;
     background-color: #2E2932;
-    padding: 40px 0;
+    
     text-align: center;
     color: #ffffff;
     
@@ -375,6 +377,8 @@ a {
 
   
   .footer-container {
+
+    background-color: #2E2932;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
