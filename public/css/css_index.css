@@ -490,6 +490,19 @@ justify-content: center;
 }
 
 
+@media (max-width: 500px) {
+
+  .pai-cabecalho {
+    display: grid;
+  }
+
+  #sobremesa01 {
+    padding-top: 100px;
+  }
+
+}
+
+
 
 
 
