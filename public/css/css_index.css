@@ -491,7 +491,6 @@ footer {
 
 
 
-/* alterações via media */
 
 
 
@@ -512,26 +511,3 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-/* Exemplo de ajustes responsivos (modifique conforme necessário) */
-@media (max-width: 500px) {
-  .linkstopo  {
-    display: none;
-    cursor: pointer;
-    /* Adicione outros estilos para destacar o botão */
-  }
-
-
-
-
-
-
-}
