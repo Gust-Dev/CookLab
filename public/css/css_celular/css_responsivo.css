@@ -8,6 +8,14 @@
         
     }
 
+
+    .linkstopo {
+      font-size: 10px;
+      gap: 30px;
+    }
+
+    
+
     .logotipo {
         display: grid;
         justify-content: center;
@@ -40,12 +48,44 @@
     }
     
 
-   
+   #toggle:checked ~ .linkscategoria {
+      height: 250px;}
+
+
+
+
+     
+        .linkscategoria {
+            gap: 20px;
+            font-size: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+          
+    
 }
 
+@media (max-width: 1200px) {
 
-
-
+.linkscategoria {
+            display: flex;
+            background-color: #716565;
+            gap: 30px;
+            height: 45px;
+            padding-top: 0px;
+            color: white;
+            justify-content: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            align-items: center;
+            font-size: 7px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        
+        }
+      }
 
 @media (max-width: 500px) {
 

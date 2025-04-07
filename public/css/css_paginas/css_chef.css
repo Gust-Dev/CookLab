@@ -96,7 +96,7 @@ display: none;
 .linkscategoria{
   display: flex;
   background-color: #716565;
-  gap: 70px;
+  gap: 30px;
   height: 45px;
   padding-top: 0px;
   color: white;
@@ -104,11 +104,13 @@ display: none;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   align-items: center;
-  font-size:xx-small;
+  font-size:7px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 
 }
+
+
 .titulo{
 color: #efebeb;
 font-family: 'Poppins', sans-serif; /*pode corrigir se tiver errado*/ /* TEM NADA ERRADO NÃO MEU AMIGO*/
