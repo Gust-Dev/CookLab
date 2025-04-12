@@ -209,37 +209,124 @@
 /*corpo do html*/
 
 .titulo{
-    margin-top: 80px;
+    margin-top: 50px;
     justify-content: center;
     display: flex;
-    color: #efebeb;
+    justify-content: CENTER;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif; /*pode corrigir se tiver errado*/ /* TEM NADA ERRADO NÃO MEU AMIGO*/
   
     text-transform: uppercase;
+    align-items: center;
+    
 }
 .botao-edicao-titulo img {
-    width: 40px; 
+    width: 25px; 
     height: auto;
     cursor: pointer;
     transition: opacity 0.3s;
-    padding-top: 15px;
     
+   
 }
-.botoes{
-    margin-top: 10px;
+
+.edicao-texto{
+  background-color: #2E2932;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  
+}
+
+
+.edicao-texto1{
+  background-color: #2E2932;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 60px;
+  
+}
+
+.titulo-receita-edicao {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 50px;
+ 
+}
+
+
+
+.tamanho-conteiner {
+  height: 460px;
+}
+.tamanho-conteiner1 {
+  height: 320px;;
+}
+
+#modopreparo {
+  background-color: #2E2932;
+  font-size: 15px;
+  color: white;
+  border: none;
+  resize: none; /* Impede o redimensionamento manual */
+  height: 100%; /* O textarea vai ocupar toda a altura disponível do seu container */
+  width: 100%; /* O campo vai ocupar toda a largura do container */
+  padding: 10px;
+
+}
+
+#modopreparo1 {
+
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+  border: none;
+  width: 350px;
+  resize: none; /* Impede o redimensionamento manual */
+  height: 100%; /* O textarea vai ocupar toda a altura disponível do seu container */
+   /* O campo vai ocupar toda a largura do container */
+ align-content: center;
+
+
+}
+
+#modopreparo1:focus {
+  outline: none; /* Remove a borda padrão de foco */
+}
+
+#modopreparo:focus {
+  outline: none; /* Remove a borda padrão de foco */
+}
+
+
+.parte-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+.botoes1{
+    margin-top: 40px;
+    justify-content: center;
     align-items: center;
     display: flex;
     gap: 30px;
-    margin-left:50px;
-    background-color: #312e39;
-    border-radius: 8px;
-    width: 190px;
-    height: 60px;
     
-    
+   
+    border-radius: 5px;
+ 
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+   
 }
 .botoes img{
-    width: 40px;
+    width: 25px;
       
 }
 .botoes a{
@@ -257,7 +344,7 @@ h1 {
 
 .img-receita img {
     object-fit: cover; 
-    border-radius: 8px;
+    
     width: 462px;
     background-color: #312e39;
     cursor: pointer;
@@ -273,7 +360,7 @@ h1 {
 
 .receita-conteiner {
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     margin: 50px;
     height: 382px;
@@ -325,6 +412,7 @@ h1 {
       gap: 20px;
       justify-content: center;
       padding: 20px;
+      
 }
 .texto-titulo{
     align-items: center;
@@ -344,24 +432,37 @@ h1 {
 
 
 .texto-modo-preparo{
-    
+    display: grid;
     text-align:justify;
-    font-size: 17px;
-    line-height: 1.6;
-    max-width: 800px;
+    
+  
+    width: 500px;
     margin: 0 auto;
     color: #ffffff;
     margin: 0 20px;
-    background-color: #2E2932;
+    align-content: center;
+
+    
+    
 }
 .texto-modo-preparo p{
     visibility: hidden;
 }
 .texto-modo-preparo span{
-    
+    font-size: 15px;
     color: #ffffff;
     
+    
 }
+
+.edicao-texto{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  
+}
+
 .texto-modo-preparo p{
     line-height: 2;
 }
@@ -374,10 +475,6 @@ h1 {
 
 .ingredientes span{
     color: #ffffff;
-}
-.ingredientes, .texto-modo-preparo{
-    position: relative;
-   
 }
 
 .ingredientes{
